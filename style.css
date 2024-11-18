@@ -243,6 +243,9 @@ margin-left: 1rem;
  .home i{
     margin-left: 0.9rem;
  }
+.profile{
+    transition:transform 1s ease-in 0;
+}
 
  .searching:Hover{
     opacity: 1;
@@ -250,6 +253,10 @@ margin-left: 1rem;
  .home:Hover{
     transform: scale(1.1);
  }
+
+.profile:hover{
+    transform:scale(1.3);
+}
 
 
 
