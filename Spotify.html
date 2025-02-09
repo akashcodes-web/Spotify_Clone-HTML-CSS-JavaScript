@@ -115,30 +115,41 @@
            <h2>Trending now near you</h2>
             <div class="card_container">
 
-                <div class="card">
+                <div class="card" data-song="mahiya.mp3">
                     <img src="card2img.jpeg" alt="img" class="card_img">
                     <P class="card_title">Mahiya jinna sohna</P>
                     <p class="card_info">Darshan Raval</p>
+                    <img src="images.png" alt="Play" class="play-icon">
                  </div>   
 
-                <div class="card">
+                <div class="card" data-song="merepass.mp3">
                     <img src="card3img.jpeg" alt="img" class="card_img">
                     <P class="card_title">Mere pass tum ho</P>
                     <p class="card_info">Rahat Fateh Ali Khan</p>
+                    <img src="images.png" alt="Play" class="play-icon">
                  </div>   
 
-                 <div class="card">
+                 <div class="card" data-song="merepass.mp3">
                     <img src="card4img.jpeg" alt="img" class="card_img">
                     <P class="card_title">alter ego naa ready</P>
                     <p class="card_info">Anirudh Ravichander..</p>
+                    <img src="images.png" alt="Play" class="play-icon">
                  </div>
                  
                 
-                 <div class="card">
+                 <div class="card" data-song="bhul.mp3">
                     <img src="https://i.scdn.co/image/ab67616d00001e02b64f4ac4a25a5ce77ba13b04" alt="img" class="card_img">
                     <P class="card_title">Bhool bhuliya3 title-track</P>
                     <p class="card_info">Pitbull</p>
+                    <img src="images.png" alt="Play" class="play-icon">
                  </div>
+
+                 <div class="card" data-song="kun_Faaya.mp3">
+                    <img src="kun_Faaya.jpg" alt="img" class="card_img">
+                    <P class="card_title">Kun Faaya</P>
+                    <p class="card_info">A.R. Rahman, Javed Ali...</p>
+                    <img src="images.png" alt="Play" class="play-icon">
+                 </div>   
     
            </div>
 
@@ -258,7 +269,7 @@
 
                     <img src="player_icon1.png" alt="img" class="player-control-icon"  >
                     <img src="player_icon2.png" alt="img" class="player-control-icon"  >
-                    <img src="player_icon3.png" alt="img" class="player-control-icon play" >
+                    <img src="player_icon3.png" alt="img" class="player-control-icon play" id="footer-play-pause" >
                     <img src="player_icon4.png" alt="img" class="player-control-icon"  >
                     <img src="player_icon5.png" alt="img" class="player-control-icon"  >
 
@@ -266,9 +277,9 @@
 
                 <div class="playback-bar">
 
-                    <span class="curr_time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar" step="1">
-                    <span class="total_time">03:32</span>
+                    <span id="curr_time">00:00</span>
+                    <input type="range" min="0" max="100" id="progress-bar" step="1">
+                    <span id="total_time">00:00</span>
 
                 </div>
             </div>
@@ -279,10 +290,11 @@
                 <img src="controls_icon3.png" alt="img" class="control_music">
                 <img src="controls_icon4.png" alt="img" class="control_music">
                 <img src="controls_icon5.png" alt="img" class="control_icon">
-                <input type="range" min="0" max="100" class="progress_music" step="1">
+                <input type="range" min="0" max="1" class="progress_music" id="volume-control" step="0.01">
 
             </div>
         </div>
-  </div>        
+  </div>  
+  <script src="okkk.js"></script>      
 </body>
 </html>
